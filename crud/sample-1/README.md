@@ -47,3 +47,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
   - Perform password-based and social login
   - Secure your application with multi-factor authentication
   - And much more! Check out our product documentation
+- [React Router](https://reactrouter.com)
