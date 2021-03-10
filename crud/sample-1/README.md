@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## How to
+
+- create a `.env.local` file with the content below:
+
+```environment
+REACT_APP_OKTA_CLIENT_ID={clientId}
+REACT_APP_OKTA_ORG_URL=https://{yourOktaDomain}
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -32,3 +41,9 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## References
 
 - [Basic CRUD app - Node + React](https://developer.okta.com/blog/2018/07/10/build-a-basic-crud-app-with-node-and-react)
+- [OKTA User management](https://developer.okta.com/product/user-management)
+  - Authenticate and authorize your users
+  - Store data about your users
+  - Perform password-based and social login
+  - Secure your application with multi-factor authentication
+  - And much more! Check out our product documentation
