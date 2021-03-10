@@ -48,3 +48,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
   - Secure your application with multi-factor authentication
   - And much more! Check out our product documentation
 - [React Router](https://reactrouter.com)
+- [Epilogue - Flexible rest endpoints](https://github.com/dchester/epilogue)
