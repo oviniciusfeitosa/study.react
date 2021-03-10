@@ -26,6 +26,7 @@
     "recompose": "0.30.0",
     "sequelize": "4.44.3",
     "sqlite3": "4.1.0",
+    "uuid": "3.3.2",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
