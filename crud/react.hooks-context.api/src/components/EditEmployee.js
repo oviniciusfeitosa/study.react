@@ -2,7 +2,7 @@ import React, { Fragment, useState, useContext, useEffect } from "react";
 import { GlobalContext } from "../context/GlobalState";
 import { useHistory, Link } from "react-router-dom";
 
-export const Editemployee = (route) => {
+export const EditEmployee = (route) => {
   let history = useHistory();
   const { employees, editEmployee } = useContext(GlobalContext);
   const [selectedUser, setSeletedUser] = useState({
@@ -18,7 +18,9 @@ export const Editemployee = (route) => {
     const selectedUser = employees.find(
       (emp) => emp.id === parseInt(employeeId)
     );
+
     setSeletedUser(selectedUser);
+    // eslint-disable-next-line
   }, []);
 
   const onSubmit = (e) => {
@@ -31,7 +33,7 @@ export const Editemployee = (route) => {
     setSeletedUser({ ...selectedUser, [userKey]: value });
 
   if (!selectedUser || !selectedUser.id) {
-    alert("Id dont match !");
+    return <div>User not found in initial state.</div>;
   }
 
   return (

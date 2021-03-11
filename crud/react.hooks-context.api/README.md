@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## References
+
+- [React APIContext + Hooks](https://www.digitalocean.com/community/tutorials/react-crud-context-hooks)
+- [TailWindCSS React APP](https://tailwindcss.com/docs/guides/create-react-app)
