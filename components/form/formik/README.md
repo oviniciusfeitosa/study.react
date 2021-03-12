@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## References
+
+- [Formik - Formulários sem lágrimas](https://medium.com/reactbrasil/formik-construa-formul%C3%A1rios-em-react-sem-l%C3%A1grimas-a80c52887882)
+- [Formik . React Form Management](https://rossbulat.medium.com/formik-for-react-introduction-to-form-management-done-right-971889b40f9f)
+- [Formik + Yup](https://medium.com/@phucdph/essential-form-management-in-react-with-formik-yup-integrate-formik-with-other-ui-library-ed52fc363f58)
