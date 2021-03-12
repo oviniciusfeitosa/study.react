@@ -9,6 +9,12 @@ const initialState = {
       location: "Brasilia - DF",
       designation: "Solutions Architect",
     },
+    {
+      id: 2,
+      name: "Geraldo",
+      location: "Brasilia - DF",
+      designation: "Analista de sistemas Sênior",
+    },
   ],
 };
 
