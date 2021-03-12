@@ -71,6 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## References
 
-- [Formik - Formulários sem lágrimas](https://medium.com/reactbrasil/formik-construa-formul%C3%A1rios-em-react-sem-l%C3%A1grimas-a80c52887882)
-- [Formik . React Form Management](https://rossbulat.medium.com/formik-for-react-introduction-to-form-management-done-right-971889b40f9f)
-- [Formik + Yup](https://medium.com/@phucdph/essential-form-management-in-react-with-formik-yup-integrate-formik-with-other-ui-library-ed52fc363f58)
+- Formik + Yup
+  - [Validation Schema](https://formik.org/docs/guides/validation#validationschema)
+- [Yup](https://github.com/jquense/yup)

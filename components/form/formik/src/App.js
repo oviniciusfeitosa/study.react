@@ -1,5 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
+import { ValidationSchemaExample } from './components/FormikAndYup';
+
+import logo from './logo.svg';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <ValidationSchemaExample></ValidationSchemaExample>
     </div>
   );
 }
