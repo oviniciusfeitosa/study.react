@@ -1,5 +1,5 @@
 import React from "react";
-import { Formik, Form, Field } from "formik";
+import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 
 const SignupSchema = Yup.object().shape({
@@ -31,15 +31,19 @@ export const ValidationSchemaLoginExample = () => (
     >
       {({ errors, touched }) => (
         <Form>
-          <label htmlFor="login">Login</label>
-          <Field name="login" id="login" />
-          {errors.login && touched.login ? <div>{errors.login}</div> : null}
-          <label htmlFor="password">Password</label>
-          <Field name="password" id="password" />
-          {errors.password && touched.password ? (
-            <div>{errors.password}</div>
-          ) : null}
-          <button type="submit">Submit</button>
+          <div>
+            <label htmlFor="login">Login</label>
+            <Field name="login" id="login" />
+            <ErrorMessage name="login" />
+          </div>
+          <div>
+            <label htmlFor="password">Password</label>
+            <Field name="password" id="password" />
+            <ErrorMessage name="password" />
+          </div>
+          <div>
+            <button type="submit">Submit</button>
+          </div>
         </Form>
       )}
     </Formik>
