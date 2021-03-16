@@ -1,5 +1,5 @@
 import '@govbr/dsgov/dist/dsgov-base.css';
-import '@govbr/dsgov/dist/components/breadcrumb/breadcrumb';
+// import '@govbr/dsgov/dist/components/breadcrumb/breadcrumb';
 import '@govbr/dsgov/dist/dsgov.css';
 import './App.css';
 
