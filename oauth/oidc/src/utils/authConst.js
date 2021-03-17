@@ -15,6 +15,9 @@ export const IDENTITY_CONFIG = {
 };
 
 export const METADATA_OIDC = {
+  //Exemple: access https://IDENTITYSERVERHOST.COM/.well-known/openid-configuration
+  // https://accounts.google.com/.well-known/openid-configuration
+  //
   issuer: "https://identityserver",
   jwks_uri: process.env.REACT_APP_AUTH_URL + "/.well-known/openid-configuration/jwks",
   authorization_endpoint: process.env.REACT_APP_AUTH_URL + "/connect/authorize",
@@ -24,4 +27,5 @@ export const METADATA_OIDC = {
   check_session_iframe: process.env.REACT_APP_AUTH_URL + "/connect/checksession",
   revocation_endpoint: process.env.REACT_APP_AUTH_URL + "/connect/revocation",
   introspection_endpoint: process.env.REACT_APP_AUTH_URL + "/connect/introspect"
+
 };
