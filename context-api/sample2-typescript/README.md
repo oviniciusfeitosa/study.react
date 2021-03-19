@@ -44,3 +44,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## References
+
+- [Using React's Context API with Typescript](https://www.pluralsight.com/guides/using-react's-context-api-with-typescript)
