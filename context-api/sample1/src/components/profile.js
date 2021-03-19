@@ -1,11 +1,11 @@
 import React from 'react';
-import { AuthContext } from '../providers/auth';
+import { useAuth } from '../providers/auth';
 
 // import { Container } from './styles';
 
 function Profile() {
 
-  const { user } = React.useContext(AuthContext);
+  const { user } = useAuth();
 
   return (
     <div>
