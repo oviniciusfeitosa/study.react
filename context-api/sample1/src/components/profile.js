@@ -9,8 +9,7 @@ function Profile() {
 
   return (
     <div>
-        <h1>Profile</h1>
-        <p><b>Name:</b> {user.name}</p>
+        <h1>Profile: {user.name}</h1>
     </div>
   );
 }
