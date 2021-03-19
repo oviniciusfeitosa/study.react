@@ -10,7 +10,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <label>Nome:</label> <input type="text" onChange={(e) => setUser({name: e.target.value})} />
+      <label>Name:</label> <input type="text" onChange={(e) => setUser({name: e.target.value})} />
       <hr />
       <Profile />
     </div>
