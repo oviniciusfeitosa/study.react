@@ -1,8 +1,13 @@
+import React from "react";
+import { AuthContext } from "./providers/auth";
 
-function App() {
+const App = () => {
+
+  const { user } = React.useContext(AuthContext);
+  
   return (
     <div className="App">
-      <h1>Yo!</h1>
+      <h1>Yo! {user.name}</h1>
     </div>
   );
 }
