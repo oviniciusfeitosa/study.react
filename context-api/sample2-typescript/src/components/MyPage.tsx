@@ -6,7 +6,6 @@ import { useTheme } from '../providers/ThemeContext';
 const MyPage: React.FC = () => {
 
     const { theme, setTheme } = useTheme();
-console.log
     return (
         <div>
             <h1>My Page</h1>
