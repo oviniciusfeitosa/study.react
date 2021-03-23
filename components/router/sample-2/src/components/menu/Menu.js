@@ -21,6 +21,11 @@ const Menu = () => (
                     About
                 </Link>
             </li>
+            <li className="app-menu__item">
+                <Link className="app-menu__link" to="/another">
+                    Another Layout
+                </Link>
+            </li>
         </ul>
     </nav>
 )
