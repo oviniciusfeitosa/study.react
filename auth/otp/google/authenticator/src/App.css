@@ -37,6 +37,31 @@
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: rgb(50, 47, 47);
+  color: white;
+  padding: 10px;
+}
+
+.navbar ul {
+  display: flex;
+  width: 600px;
+  margin: 0px auto;
+  font-size: 14px;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin: 10px;
+}
+
+.App {
+  background: hsl(159, 80%, 15%);
+  height: 100vh;
 }
